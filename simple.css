@@ -799,7 +799,7 @@ pre code {
 // ----------------  LAYOUT
 
 .container {
-	max-width: 1024px;
+	max-width: 45rem;
 	width: 90%;
 	margin: 0 auto;
 }
