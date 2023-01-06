@@ -806,12 +806,12 @@ pre code {
 
 // ----------------  THE FONTS
 
-$border-color: var(--accent-bg);
+$border-color: rgba(black, .3);
 
 .timeline-item {
 	padding: 3em 2em 2em;
 	position: relative;
-	color: var(accent-bg);
+	color: rgba(black, .7);
 	border-left: 2px solid $border-color;
 
 	p {
@@ -840,14 +840,14 @@ $border-color: var(--accent-bg);
 		border-radius: 10px;
 		content: '';
 		border: 2px solid $border-color;
-		background: var(bg);
+		background: white;
 	}
 
 	&:last-child {
 		border-image: linear-gradient(
 			to bottom,
 			$border-color 60%,
-			$border-color) 1 100%
+			rgba($border-color, 0)) 1 100%
 		;
 	}
 }
