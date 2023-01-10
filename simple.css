@@ -812,7 +812,7 @@ pre code {
    top: 0;
    left: 7%;
    margin-left: -1px;
-   width: 2px;
+   width: 4px;
    height: 100%;
    background: var(--text);
    z-index: 1;
@@ -833,7 +833,7 @@ pre code {
    width: 26px;
    height: 26px;
    border-radius: 50%;
-   border: 2px solid var(--bg);
+   border: 4px solid var(--bg);
    background: var(--accent-bg);
    margin-top: 10px;
    z-index: 9999
