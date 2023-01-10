@@ -830,8 +830,8 @@ pre code {
 }
 
 .marker {
-   width: 16px;
-   height: 16px;
+   width: 26px;
+   height: 26px;
    border-radius: 50%;
    border: 2px solid var(--bg);
    background: var(--accent-bg);
