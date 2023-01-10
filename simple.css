@@ -865,7 +865,7 @@ pre code {
 
 @media screen and (max-width: 768px) {
    .container:before {
-      left: 25px;
+      left: 15px;
       width: 2px;
    }
    .timeline-block {
