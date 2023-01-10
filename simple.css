@@ -833,7 +833,7 @@ pre code {
    width: 16px;
    height: 16px;
    border-radius: 50%;
-   border: 2px solid var(--gb);
+   border: 2px solid var(--bg);
    background: var(--accent-bg);
    margin-top: 10px;
    z-index: 9999
