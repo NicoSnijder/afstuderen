@@ -829,13 +829,15 @@ pre code {
    float: right;
 }
 
-   .marker img {
-   max-width: 60px;
+.marker {
+   width: 16px;
+   height: 16px;
    border-radius: 50%;
-   border: 2px solid var(--text);
-   position: relative;
-   z-index: 9999;
-   }
+   border: 2px solid var(--gb);
+   background: var(--accent-bg);
+   margin-top: 10px;
+   z-index: 9999
+}
 
 .timeline-content {
    width: 100%;
@@ -874,13 +876,13 @@ pre code {
       float: none;
    }
 
-   .marker img {
-   width: 50px;
+   .marker {
+   width: 16px;
+   height: 16px;
    border-radius: 50%;
-   border: 4px solid var(--text);
-   background-color: var(--bg);
+   border: 2px solid var(--gb);
+   background: var(--accent-bg);
    margin-top: 10px;
-   position: relative;
-   z-index: 9999;
-   }
+   z-index: 9999
+}
 }
