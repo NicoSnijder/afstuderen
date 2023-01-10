@@ -819,7 +819,7 @@ pre code {
 }
 
 .timeline-block {
-   width: calc(94% + 3px);
+   width: calc(97% + 3px);
    display: flex;
    justify-content: space-between;
    clear: both;
