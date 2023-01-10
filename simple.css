@@ -819,7 +819,7 @@ pre code {
 }
 
 .timeline-block {
-   width: calc(94% + 1px);
+   width: calc(94% + 5px);
    display: flex;
    justify-content: space-between;
    clear: both;
@@ -830,8 +830,8 @@ pre code {
 }
 
 .marker {
-   width: 26px;
-   height: 26px;
+   max-width: 26px;
+   max-height: 26px;
    border-radius: 50%;
    border: 2px solid var(--bg);
    background: var(--accent-bg);
