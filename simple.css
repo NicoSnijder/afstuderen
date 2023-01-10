@@ -829,10 +829,11 @@ pre code {
    float: right;
 }
 
-   .marker img {
+   .marker {
    max-width: 60px;
    border-radius: 50%;
    border: 2px solid var(--text);
+   background-color: var(--bg);
    position: relative;
    z-index: 9999;
    }
@@ -874,7 +875,7 @@ pre code {
       float: none;
    }
 
-   .marker img {
+   .marker {
    width: 50px;
    border-radius: 50%;
    border: 2px solid var(--text);
