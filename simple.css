@@ -880,7 +880,7 @@ pre code {
 
 @media screen and (max-width: 768px) {
    .container:before {
-      left: 15px;
+      left: 10px;
       width: 2px;
    }
    .timeline-block {
@@ -892,8 +892,8 @@ pre code {
    }
 
    .marker {
-   width: 16px;
-   height: 16px;
+   width: 25px;
+   height: 25px;
    border-radius: 50%;
    border: 2px solid var(--gb);
    background: var(--link);
