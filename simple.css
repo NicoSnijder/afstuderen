@@ -884,7 +884,7 @@ pre code {
       width: 2px;
    }
    .timeline-block {
-      width: 95%;
+      width: calc(94% + 8px);
       margin-bottom: 30px;
    }
    .timeline-block-right {
